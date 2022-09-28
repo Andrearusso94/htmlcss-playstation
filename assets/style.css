@@ -1,0 +1,27 @@
+*{
+   box-sizing: border-box;
+   margin:0;
+   padding:0; 
+}
+
+:root{
+    --primary: rgba(45, 100, 230, 1);
+    --secondary:rgba(0, 67, 156, 1);
+    --cta:rgba(205, 61, 15, 1);
+    --darker:rgba(54, 54, 54, 1);
+    --dark: rgba(0, 0, 0, 1);
+    --light: rgba(255, 255, 255, 1);
+}
+
+img{
+    max-width: 100%;
+}
+
+.my_container{
+    background-color: var(--dark);
+    text-align: end;
+}
+.logo{
+    width: 10%;
+    padding:0.5rem;
+}
