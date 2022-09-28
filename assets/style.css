@@ -13,11 +13,6 @@
     --light: rgba(255, 255, 255, 1);
 }
 
-.debug{
-    height: 100px;
-    width: 100px;
-
-}
 
 img{
     max-width: 100%;
@@ -27,6 +22,9 @@ img{
     background-color: var(--dark);
     
 }
+.bg_cta{
+    background-color: var(--cta);
+}
 .logo{
     text-align: end;
 }
@@ -35,6 +33,18 @@ img{
     padding:0.25rem;
 }
 
-.bg_cta{
-    background-color: var(--cta);
+.banner{
+    background-image: url(./img/jumbo-bg.png);
+    
+      background-size: cover;
+   
+    
 }
+.presentation{
+    padding:0.5rem;
+    width: 50%;
+    color: var(--light);
+    padding-top:10rem;
+    padding-left: 1rem;
+}
+
