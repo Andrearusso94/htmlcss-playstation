@@ -17,7 +17,9 @@
 img{
     max-width: 100%;
 }
-
+.c_primary{
+    color: var(--primary);
+}
 .bg_dark{
     background-color: var(--dark);
     
@@ -47,4 +49,10 @@ img{
     padding-top:10rem;
     padding-left: 1rem;
 }
+.console{
+    margin-top: 12.5rem;
+}
 
+h6{
+    font-size: 0.25rem;
+}
