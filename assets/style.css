@@ -13,15 +13,28 @@
     --light: rgba(255, 255, 255, 1);
 }
 
+.debug{
+    height: 100px;
+    width: 200px;
+
+}
+
 img{
     max-width: 100%;
 }
 
-.my_container{
+.bg_dark{
     background-color: var(--dark);
-    text-align: end;
+    
 }
 .logo{
+    text-align: end;
+}
+.img_logo{
     width: 10%;
     padding:0.5rem;
+}
+
+.bg_cta{
+    background-color: var(--cta);
 }
