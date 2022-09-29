@@ -11,11 +11,11 @@
   <body>
     
     <header>
-        <div class="container logo bg_dark">
+        <div class="container-fluid logo bg_dark">
             <img class="img_logo" src="./assets/img/sony_logo.svg" alt="">
         </div>
         <nav class="navbar navbar-expand-xl">
-            <div class="container bg-light">
+            <div class="container-fluid bg-light">
               <img src="./assets/img/play_logo.svg" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -87,13 +87,14 @@
             </div>
         </section>
         <section class="carrousel">
+            <div class="container-fluid">
             <div class="row m-3 mb-5">
-                <div class="col-sm-6  col-md-4 col-lg-2 col-xl-2">
+                <div class="col-sm-6 col-md-4 col-lg-2 col-xl-2">
                     <div class="cards">
                         <img class="rounded-4" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-sm-6  col-md-4 col-lg-2 col-xl-2">
+                <div class=" col-sm-6  col-md-4 col-lg-2 col-xl-2">
                     <div class="cards">
                         <img class="rounded-4" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                     </div>
@@ -118,7 +119,7 @@
                         <img class="rounded-4" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                     </div>
                 </div>
-                
+                </div>
             </div>
             <!--end carrousel-->
         
@@ -127,7 +128,7 @@
         <!--end returnal-->
 
         <section class="ps5">
-            <div class="container mt-5 py-5">
+            <div class="container-fluid mt-5 py-5">
                 <h6 class="text-center c_primary">PLAY AS NO LIMITS</h6>
                 <h2 class="text-center">Ecco la PlayStation 5</h2>
                 <h5 class="text-center text-secondary">Tuffati in nuove possibilità di gioco totalmente inaspettate</h5>
@@ -180,12 +181,22 @@
         <!--end ps5-->
 
         <section class="takes_two">
-            <div class="container py-2">
+            <div class="container-fluid py-2">
                 <div class="row">
-                    <div class="col-12 bg_cta debug">
-                        immagine banner
+                    <div class="col-12">
+                        <div class="takes">
+                            <img class="img_takes" src="./assets/img/it-takes-two-logo.png" alt="">
+                            <h1 class="m-3">Un avventura cooperativa selvaggia ti attende</h1>
+                            <p class="m-3">Trova un amico e partite insieme per l'avventura più folle delle vostre vita in It. Takes Two, un gioco d'avventura cooperativa che strvolge il suo genere.</p>
+                            <button type="button" class=" m-3 btn btn-danger bg_cta rounded-pill">Acquista ora</button>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!--end takes_two-->
+        <section>
+                <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-6  col-md-4 col-lg-4 col-xl-2 border border-primary bg_dark">ciao</div>
                     <div class="col-sm-6  col-md-4 col-lg-4 col-xl-2 border border-primary bg_dark">ciao</div>
@@ -200,6 +211,7 @@
                     <div class="col-sm-6  col-md-4 col-lg-4 col-xl-2 bg_dark">ciao</div>
                     <div class="col-sm-6  col-md-4 col-lg-4 col-xl-2 bg_dark">ciao</div>
                 </div>
+            </div>
         </section>
         <!--end takes_two-->
 

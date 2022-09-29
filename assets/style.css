@@ -37,11 +37,9 @@ img{
 
 .returnal{
     background-image: url(./img/jumbo-bg.png);
-    
       background-size: cover;
-   
-    
 }
+
 .presentation{
     padding:0.5rem;
     width: 50%;
@@ -55,4 +53,19 @@ img{
 
 h6{
     font-size: 0.25rem;
+}
+
+.takes_two{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+}
+.takes{
+    padding:0.5rem;
+    width: 40%;
+    color: var(--light);
+    padding-top:2rem;
+    padding-left: 1rem;
+}
+.img_takes{
+    width: 50%;
 }
