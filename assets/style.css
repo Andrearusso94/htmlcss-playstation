@@ -8,17 +8,23 @@
     --primary: rgba(45, 100, 230, 1);
     --secondary:rgba(0, 67, 156, 1);
     --cta:rgba(205, 61, 15, 1);
-    --darker:rgba(54, 54, 54, 1);
+    --darker:rgba(190, 188, 187, 1);
     --dark: rgba(0, 0, 0, 1);
     --light: rgba(255, 255, 255, 1);
 }
 
+.bg_darker{
+    background-color: var(--darker);
+}
 
 img{
     max-width: 100%;
 }
 .c_primary{
     color: var(--primary);
+}
+.bg_light{
+    background-color: var(--light);
 }
 .bg_dark{
     background-color: var(--dark);
@@ -42,10 +48,10 @@ img{
 
 .presentation{
     padding:0.5rem;
-    width: 50%;
+    width: 40%;
     color: var(--light);
     padding-top:10rem;
-    padding-left: 1rem;
+    
 }
 .console{
     margin-top: 12.5rem;
@@ -68,4 +74,19 @@ h6{
 }
 .img_takes{
     width: 50%;
+}
+
+.plus{
+    padding:0.5rem;
+    width: 100%;
+    color: var(--light);
+    padding-top:2.5rem;
+    padding-left: 1rem;
+}
+
+.plus img{
+    width: 50%;
+}
+.plus_i img{
+    width: 90%;
 }
