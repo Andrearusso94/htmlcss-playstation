@@ -54,13 +54,13 @@ img{
 
 .presentation{
     padding:0.5rem;
-    width: 40%;
+    width: 50%;
     color: var(--light);
     padding-top:10rem;
     
 }
 .console{
-    margin-top: 12.5rem;
+    margin-top: 8rem;
 }
 
 h6{
@@ -73,13 +73,13 @@ h6{
 }
 .takes{
     padding:0.5rem;
-    width: 40%;
+    width: 100%;
     color: var(--light);
     padding-top:2rem;
     padding-left: 1rem;
 }
 .img_takes{
-    width: 50%;
+    width: 20%;
 }
 
 .plus{
