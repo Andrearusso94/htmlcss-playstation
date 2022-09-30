@@ -70,6 +70,7 @@ h6{
 .takes_two{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
+    opacity: 95%;
 }
 .takes{
     padding:0.5rem;
